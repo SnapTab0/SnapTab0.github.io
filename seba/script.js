@@ -15,7 +15,7 @@ shareBtn.addEventListener('click', event => {
   if (navigator.share) {
     // Browser supports native share api
     navigator.share({
-      text: 'Shah Shah Digital Business Card Powered By Snaptab: ',
+      text: 'Mr. Mohammed Atif Digital Business Card Powered By Snaptab: ',
       url: 'https://snaptab0.github.io/seba/index.html'
     }).then(() => {
       console.log('Thanks for sharing!');
